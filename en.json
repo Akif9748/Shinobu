@@ -1,0 +1,221 @@
+{
+    "creator": {
+        "name": "Akif9748",
+        "url": "https://github.com/Akif9748"
+    },
+    "localize": {
+        "nosong": "There is no song playing.",
+        "deprecate": "This command is deprecated.",
+        "owneronly": "This command is only available to the owner.",
+        "premiumonly": "This command is only available to premium servers.",
+        "blacklist": "You are blacklisted from using this bot.",
+        "noauthor": "You are not the one who started the music.",
+        "younotchannel": "You are not in the same channel as the bot.",
+        "channelfull": "The channel is full.",
+        "noresult": "No results found.",
+        "noplaylist": "A playlist with this name does not exist.",
+        "off": "Off",
+        "loading": "🎵 | Loading...",
+        "found": "🎵 | Music found"
+    },
+    "commands": {
+        "back": {
+            "name": "back",
+            "description": "🎵 | If you want to get the music back.",
+            "options": {
+                "count": {
+                    "name": "count",
+                    "description": "How far back do you want to go?"
+                }
+            },
+            "localize": {
+                "success": "Successfully reclaimed the song."
+            }
+        },
+        "filters": {
+            "name": "filters",
+            "description": "🎵 | To add/remove filters to music",
+            "options": {
+                "filter": {
+                    "name": "name",
+                    "description": "Filter name"
+                }
+            },
+            "localize": {
+                "success": "Current queue filters: {filters}"
+            }
+        },
+        "help": {
+            "name": "help",
+            "description": "The help menu",
+            "localize": {
+                "menuname": "Shinobu Help Menu",
+                "desp": "Invite Me: [Add]({invite}) You won't regret adding me!\n\n **My Commands** \n{commands}\nHelloooo friend, I'm Shinobu I came to have fun with you, shall we listen to a song?"
+            }
+        },
+        "info": {
+            "name": "info",
+            "description": "🤖 | If you want to know about me."
+        },
+        "leave": {
+            "name": "leave",
+            "description": "🎵 | If you want to turn off the music.",
+            "localize": {
+                "success": "I am leaved from channel."
+            }
+        },
+        "list": {
+            "name": "list",
+            "description": "🎵 | Songs will play",
+            "localize": {
+                "songlist": "Song List"
+            }
+        },
+        "loop": {
+            "name": "loop",
+            "description": "🎵 | If you want to loop and listen to the song",
+            "localize": {
+                "modes": [
+                    "Off",
+                    "Song",
+                    "Queue"
+                ],
+                "success": "Loop mode set to {mode}"
+            }
+        },
+        "lyrics": {
+            "name": "lyrics",
+            "description": "🎵 | Get the lyrics of the song.",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "Song name?"
+                }
+            },
+            "localize": {
+                "playing": "Song is playing now"
+            }
+        },
+        "nowplaying": {
+            "name": "nowplaying",
+            "description": "🎵 | You get information about the song playing."
+        },
+        "pause": {
+            "name": "pause",
+            "description": "🎵 | Stop Music!",
+            "localize": {
+                "already": "Music is already paused.",
+                "success": "Music paused!"
+            }
+        },
+        "play": {
+            "name": "play",
+            "description": "🎵| Do you want to open a song?",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "Song Name?"
+                }
+            }
+        },
+        "playlists": {
+            "name": "playlists",
+            "description": "🎵 | If you want to view your playlists."
+        },
+        "playlist_create": {
+            "name": "playlist_create",
+            "description": "🎵 | If you want to create a playlist.",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "The name of the playlist."
+                }
+            },
+            "localize": {
+                "already": "A playlist with this name already exists. You can delete it.",
+                "success": "The playlist `{name}` with {length} songs has been created on this server.\nPlay it with `/playlist_play {name}`"
+            }
+        },
+        "playlist_delete": {
+            "name": "playlist_delete",
+            "description": "🎵 | If you want to delete a playlist.",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "The name of the playlist."
+                }
+            },
+            "localize": {
+                "success": "The playlist `{name}` has been deleted."
+            }
+        },
+        "playlist_play": {
+            "name": "playlist_play",
+            "description": "🎵 | If you want to play a playlist.",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "The name of the playlist."
+                }
+            },
+            "localize": {
+                "success": "The playlist `{name}` has been played."
+            }
+        },
+        "resume": {
+            "name": "resume",
+            "description": "🎵 | If you want to continue music.",
+            "localize": {
+                "already": "Music is already resuming.",
+                "success": "Music resumed!"
+            }
+        },
+        "search": {
+            "name": "search",
+            "description": "🎵| Do you want to search a song?",
+            "options": {
+                "name": {
+                    "name": "name",
+                    "description": "Song Name?"
+                }
+            }
+        },
+        "seek": {
+            "name": "seek",
+            "description": "🎵 | if you want to search for music.",
+            "options": {
+                "number": {
+                    "name": "number",
+                    "description": "How far do you want to go?"
+                }
+            },
+            "localize": {
+                "success": "Song is forwarded."
+            }
+        },
+        "skip": {
+            "name": "skip",
+            "description": "🎵 | if you want to skip the music"
+            ,
+            "localize": {
+                "success": "Song skipped."
+            } },
+        "sponsor": {
+            "name": "sponsor",
+            "description": "RasByte, sponsor"
+        },
+        "volume": {
+            "name": "volume",
+            "description": "🎵 | Set the music volume!",
+            "options": {
+                "number": {
+                    "name": "number",
+                    "description": "1-100"
+                }
+            },
+            "localize": {
+                "success": "Song volume set to {volume}"
+            }
+        }
+    }
+}

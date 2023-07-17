@@ -1,0 +1,71 @@
+{
+    "creator":{
+        "name": "Akif9748",
+        "url": "https://github.com/Akif9748"
+    },
+    "localize": {
+        "nosong": "Listede şarkı yok!",
+        "deprecate": "Bu komut artık kullanılmıyor.",
+        "owneronly": "Bu komut sadece bot sahibi tarafından kullanılabilir.",
+        "premiumonly": "Bu komut sadece premium sunucularda kullanılabilir.",
+        "blacklist": "Karalisteye alınmışsın, bu komutu kullanamazsın.",
+        "noauthor": "Müziği başlatan kişi sen değilsin.",
+        "younotchannel": "Botla aynı kanalda değilsin.",
+        "channelfull": "Kanal dolu.",
+        "noresult": "Şarkı bulunamadı!",
+        "noplaylist": "Çalma listesi bulunamadı!",
+
+        "off": "Kapalı",
+        "loading": "🎵 | Yükleniyor...",
+        "found": "🎵 | Bulundu"
+    },
+    "commands": {
+        "back": {
+            "name": "geri",
+            "description": "🎵 | Müziği geri alır",
+            "options": {
+                "count": {
+                    "name": "sayı",
+                    "description": "Ne kadar geriye gidecek?"
+                }
+            },
+            "localize": {
+                "success": "Başarıyla geri alındı!"
+            }
+        },
+        "filters": {
+            "name": "filtre",
+            "description": "🎵 | Müziğe filtre eklemek/kaldırmak içindir",
+            "options": {
+                "filter": {
+                    "name": "filtre",
+                    "description": "Filtre ismi"
+                }
+            },
+            "localize": {
+                "success": "Aktif filtreler: {filters}"
+            }
+        },
+        "help": {
+            "name": "yardım",
+            "description": "Yardım menüsü",
+            "localize": {
+                "menuname": "Shinobu Yardım menüsü",
+                "desp": "Beni [buradan]({invite}) ekleyebilirsin. Pişman olmayacaksın!\n\n**Komutlarım**\n{commands}"
+            }
+        },
+        "lyrics": {
+            "name": "söz",
+            "description": "🎵 | Şarkı sözlerini getirir",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Şarkı ismi?"
+                }
+            },
+            "localize": {
+                "playing": "Song is playing now"
+            }
+        }
+    }
+}
