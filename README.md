@@ -1,5 +1,6 @@
 # Shinobu
-Translate files for Shinobu. You can add which language you know!
+Translate files for Shinobu. You can add which language you know! You can join our server: 
+https://discord.gg/Kez4MUzQaQ
 
 ### How?
 Send a pull request with file `langcode.json`, example `de.json`.
