@@ -37,7 +37,7 @@
             "description": "🎵 | To add/remove filters to music",
             "options": {
                 "filter": {
-                    "name": "name",
+                    "name": "filter",
                     "description": "Filter name"
                 }
             },
@@ -195,11 +195,11 @@
         },
         "skip": {
             "name": "skip",
-            "description": "🎵 | if you want to skip the music"
-            ,
+            "description": "🎵 | if you want to skip the music",
             "localize": {
                 "success": "Song skipped."
-            } },
+            }
+        },
         "sponsor": {
             "name": "sponsor",
             "description": "RasByte, sponsor"

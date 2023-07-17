@@ -1,7 +1,7 @@
 {
-    "creator":{
-        "name": "Akif9748",
-        "url": "https://github.com/Akif9748"
+    "creator": {
+        "name": "Marius & Akif",
+        "url": "https://github.com/"
     },
     "localize": {
         "nosong": "Listede şarkı yok!",
@@ -14,7 +14,6 @@
         "channelfull": "Kanal dolu.",
         "noresult": "Şarkı bulunamadı!",
         "noplaylist": "Çalma listesi bulunamadı!",
-
         "off": "Kapalı",
         "loading": "🎵 | Yükleniyor...",
         "found": "🎵 | Bulundu"
@@ -54,6 +53,36 @@
                 "desp": "Beni [buradan]({invite}) ekleyebilirsin. Pişman olmayacaksın!\n\n**Komutlarım**\n{commands}"
             }
         },
+        "info": {
+            "name": "bilgi",
+            "description": "🤖 | Bot hakkında bilgiler"
+        },
+        "leave": {
+            "name": "ayrıl",
+            "description": "🎵 | Bot kanaldan çıkar",
+            "localize": {
+                "success": "Kanaldan çıktım."
+            }
+        },
+        "list": {
+            "name": "sıra",
+            "description": "🎵 | Çalınacak şarkıların listesi",
+            "localize": {
+                "songlist": "İarkı listesi"
+            }
+        },
+        "loop": {
+            "name": "döngü",
+            "description": "🎵 | Şarkıyı döngüye almak içindir",
+            "localize": {
+                "modes": [
+                    "Kapalı",
+                    "Şarkı",
+                    "Liste"
+                ],
+                "success": "Döngü modu: {mode}"
+            }
+        },
         "lyrics": {
             "name": "söz",
             "description": "🎵 | Şarkı sözlerini getirir",
@@ -64,7 +93,128 @@
                 }
             },
             "localize": {
-                "playing": "Song is playing now"
+                "playing": "Şarkı şimdi çalıyor"
+            }
+        },
+        "nowplaying": {
+            "name": "çalan",
+            "description": "🎵 | Çalan şarkı hakkında bilgi alırsınız."
+        },
+        "pause": {
+            "name": "duraklat",
+            "description": "🎵 | Müziği duraklatır!",
+            "localize": {
+                "already": "Müzik zaten duraklatıldı.",
+                "success": "Müzik duraklatıldı!"
+            }
+        },
+        "play": {
+            "name": "çal",
+            "description": "🎵| Bir şarkı açmak ister misin?",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Şarkı ismi?"
+                }
+            }
+        },
+        "playlists": {
+            "name": "listeler",
+            "description": "🎵 | Çalma listelerinizi görüntülemek istiyorsanız."
+        },
+        "playlist_create": {
+            "name": "liste_oluştur",
+            "description": "🎵 | Bir çalma listesi oluşturmak istiyorsanız.",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Çalma listesinin adı."
+                }
+            },
+            "localize": {
+                "already": "Bu ada sahip bir çalma listesi zaten var. Silebilirsiniz.",
+                "success": "Bu sunucuda {length} şarkıları içeren `{name}` çalma listesi oluşturuldu.`/playlist_play {name} ile oynat`"
+            }
+        },
+        "playlist_delete": {
+            "name": "liste_sil",
+            "description": "🎵 | Bir çalma listesini silmek istiyorsanız.",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Çalma listesinin adı."
+                }
+            },
+            "localize": {
+                "success": "'{name}' çalma listesi silindi."
+            }
+        },
+        "playlist_play": {
+            "name": "liste_çal",
+            "description": "🎵 | Bir çalma listesi çalmak istiyorsanız.",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Çalma listesinin adı."
+                }
+            },
+            "localize": {
+                "success": "'{name}' çalma listesi çalındı."
+            }
+        },
+        "resume": {
+            "name": "devam",
+            "description": "🎵 | Müziğe devam etmek istiyorsan.",
+            "localize": {
+                "already": "Müzik zaten devam ediyor.",
+                "success": "Müzik devam ettirildi!"
+            }
+        },
+        "search": {
+            "name": "ara",
+            "description": "🎵| Bir şarkıyı aramak ister misin?",
+            "options": {
+                "name": {
+                    "name": "isim",
+                    "description": "Şarkı ismi?"
+                }
+            }
+        },
+        "seek": {
+            "name": "sar",
+            "description": "🎵 | Müziği ileri sarar",
+            "options": {
+                "number": {
+                    "name": "numara",
+                    "description": "Ne kadar ileri gitmek istiyorsun?"
+                }
+            },
+            "localize": {
+                "success": "Şarkı ileri sarıldı."
+            }
+        },
+        "skip": {
+            "name": "geç",
+            "description": "🎵 | Müziği atlar",
+            "localize": {
+                "success": "Şarkı atlandı."
+            }
+        },
+        "sponsor": {
+            "name": "sponsor",
+            "description": "RasByte, sponsor"
+        },
+        "volume": {
+            "name": "ses",
+            "description": "🎵 | Müzik sesini ayarlayın!",
+            "options": {
+                "number": {
+                    "name": "numara",
+                    "description": "1-100"
+                }
+            },
+            "localize": {
+                "success": "Şarkı ses seviyesi {volume} olarak ayarlandı"
             }
         }
     }
