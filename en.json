@@ -14,11 +14,15 @@
         "channelfull": "The channel is full.",
         "noresult": "No results found.",
         "noplaylist": "A playlist with this name does not exist.",
-        "off": "Off",
+        "off": "Off", "on": "On",
         "loading": "🎵 | Loading...",
         "found": "🎵 | Music found"
     },
     "commands": {
+        "autoplay": {
+            "name": "autoplay",
+            "description": "🎵 | If you want to automatic add songs end of the list."
+        },
         "back": {
             "name": "back",
             "description": "🎵 | If you want to get the music back.",

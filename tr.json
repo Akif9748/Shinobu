@@ -1,7 +1,7 @@
 {
     "creator": {
-        "name": "Marius & Akif",
-        "url": "https://github.com/"
+        "name": "Marius",
+        "url": "https://github.com/Vaniellee"
     },
     "localize": {
         "nosong": "Listede şarkı yok!",
@@ -15,10 +15,15 @@
         "noresult": "Şarkı bulunamadı!",
         "noplaylist": "Çalma listesi bulunamadı!",
         "off": "Kapalı",
+        "on": "Açık",
         "loading": "🎵 | Yükleniyor...",
         "found": "🎵 | Bulundu"
     },
     "commands": {
+        "autoplay": {
+            "name": "otomatikçal",
+            "description": "🎵 | Şarkı bittikçe otomatikmen yenilerini ekler."
+        },
         "back": {
             "name": "geri",
             "description": "🎵 | Müziği geri alır",
