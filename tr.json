@@ -37,6 +37,25 @@
                 "success": "Başarıyla geri alındı!"
             }
         },
+        "favorite": {
+            "name": "favorite",
+            "description": "🎵 | Favorilere ekle veya çıkar",
+            "localize": {
+                "remove": "`{name}` favorilerden çıkarıldı.",
+                "success": "`{name}` favorilere eklendi."
+            }
+        },       
+        "favorites_play": {
+            "name": "favorites_play",
+            "description": "🎵 | Favorileri çalar",
+            "localize": {
+                "success": "Favorilerin çalınmaya başlandı"
+            }
+        },
+        "favorites": {
+            "name": "favoriler",
+            "description": "🎵 | Favorilerin"
+        },
         "filters": {
             "name": "filtre",
             "description": "🎵 | Müziğe filtre eklemek/kaldırmak içindir",
@@ -73,7 +92,7 @@
             "name": "sıra",
             "description": "🎵 | Çalınacak şarkıların listesi",
             "localize": {
-                "songlist": "İarkı listesi"
+                "songlist": "Şarkı listesi"
             }
         },
         "loop": {

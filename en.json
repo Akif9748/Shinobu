@@ -14,7 +14,9 @@
         "channelfull": "The channel is full.",
         "noresult": "No results found.",
         "noplaylist": "A playlist with this name does not exist.",
-        "off": "Off", "on": "On",
+        "nofavs": "Your favorites does not exist.",
+        "off": "Off",
+        "on": "On",
         "loading": "🎵 | Loading...",
         "found": "🎵 | Music found"
     },
@@ -35,6 +37,25 @@
             "localize": {
                 "success": "Successfully reclaimed the song."
             }
+        },
+        "favorite": {
+            "name": "favorite",
+            "description": "🎵 | Toogle this song on your favs",
+            "localize": {
+                "remove": "Song `{name}` removed from your favs",
+                "success": "The song `{name}` added to your favs.\nPlay them with `/favorite_play`"
+            }
+        },       
+        "favorites_play": {
+            "name": "favorites_play",
+            "description": "🎵 | If you want to play your favorites.",
+            "localize": {
+                "success": "Your favs has been played."
+            }
+        },
+        "favorites": {
+            "name": "favorites",
+            "description": "🎵 | See your favs"
         },
         "filters": {
             "name": "filters",
